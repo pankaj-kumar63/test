@@ -1,0 +1,15 @@
+*{
+    padding: 0px;
+    margin: 0px;
+}
+#input{
+margin: 0px;
+padding: 5px;
+border: 2px solid green;
+border-radius: 8px;
+background-color:black;
+}
+input{
+    border: 2px solid white;
+    border-radius: 5px;
+}

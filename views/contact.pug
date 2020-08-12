@@ -1,0 +1,43 @@
+doctype html
+html
+  head
+    title Harry Dance Academy
+    style
+      include ../static/style.css
+  body
+    h2 Contact me!
+    form(action="/"
+        id="form-group"
+        method="post")
+      div#input
+        input(type="text"
+        name="name"
+        placeholder="Enter your name"
+         )
+
+      div#input
+        input(type="text"
+        name="age"
+        placeholder="Enter your age"
+        )
+
+      div#input
+        input(type="text"
+        name="number"
+        placeholder="Enter your number"
+        )
+
+      div#input
+        input(type="text"
+        name="mail"
+        placeholder="Enter your g-mail"
+        )
+
+      div
+        button.btn
+          |Submit
+    div.container
+      a(href="/pk")
+        |pk
+    script
+      include ../static/index.js
